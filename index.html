@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Portfolio Website</title>
+  <title>Mykhaylo (Michael) Alekseychy / Home</title>
   <style>.container {display: flex;justify-content: center;align-items: center;} </style>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
   <div class="header">
   <div class="header-right">
     <a href="mywork.html">+</a>
+    <a href="https://www.linkedin.com/in/mykhaylo-alekseychyk-271400225">LinkedIn</a>
     <a href="aboutme.html">About</a>
     <a href="current.html">Current Projects</a>
-    <a href="https://www.linkedin.com/in/mykhaylo-alekseychyk-271400225">LinkedIn</a>
+    <a href="website.html">Home</a>
   </div>
   </div> 
 
@@ -26,13 +26,47 @@
     I enjoy designing and working on computer games. Check out my work!
 		</p>
 	</div>
-
   <hr>
 
+  <script>
+    let i = 0;
+    let images1 = [];
+    let images2 = [];
+    let switchTime = 3000;
+
+    images1[0] = "TPMenu.PNG";
+    images1[1] = "TPGame1.png";
+    images1[2] = "TPGame2.png";
+    images1[3] = "GGGame1.png";
+
+    images2[0] = "GGGame1.png";
+    images2[1] = "TPGame2.png";
+    images2[2] = "TPMenu.png";
+    images2[3] = "TPGame1.png";
+
+    function swapSlide() 
+    {
+        document.slider1.src = images1[i];
+        document.slider2.src = images2[i];
+        i++;
+
+        if (i >= images1.length)
+        {
+            i = 0;
+        }
+
+        setTimeout("swapSlide()", switchTime);
+    }
+
+    window.onload = swapSlide;
+  </script>
+
   <div class="container">
-    <div class="boxc">
+    <div class="boxslider">
+      <img name="slider1" width="640" height= "360">
     </div>
-    <div class="boxc">
+    <div class="boxslider">
+      <img name="slider2" width="640" height= "360">
     </div>
   </div>
 
