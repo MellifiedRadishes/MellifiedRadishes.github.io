@@ -64,6 +64,7 @@ p{
   font-size: 40px;
   font-family: CustomFont;
   margin-top: 10px;
+
 }
 
 .containerImage {
@@ -76,13 +77,18 @@ p{
   font-size: 24px;
   font-family: CustomFont;
   text-align: center;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
 }
 
 .boxa {
   width: 250px;
   height: 350px;
   border: 15px solid #000000;
-  margin: auto;
+  
+
   margin-top: 10px;
 }
 
@@ -94,9 +100,9 @@ p{
   margin-top: 10px;
 }
 
-.boxc {
-  width: 800px;
-  height: 450px;
+.boxslider {
+  width: 640px;
+  height: 360px;
   border: 15px solid #000000;
   margin: auto;
   margin-top: 10px;
