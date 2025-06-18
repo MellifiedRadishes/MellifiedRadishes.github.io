@@ -9,7 +9,7 @@
     {% include head-custom.html %}
   </head>
   <body>
-    <div class="container-lg markdown-body">
+    <div class="container-lg markdown-body" style="background-color: var(--color-background);display: flex;min-height: 100vh;flex-direction: column;margin: 0;overflow: scroll;">
       {{ content }}
 
       {% if site.github.private != true and site.github.license %}
