@@ -1,0 +1,251 @@
+﻿@font-face {
+    font-family: 'JetBrainsMono-Bold';
+    font-style:normal;
+    src: url('/fonts/JetBrainsMono-Bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'JetBrainsMono-Regular';
+    font-style:normal;
+    src: url('/fonts/JetBrainsMono-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'JetBrainsMono-ExtraBold';
+    font-style:normal;
+    src: url('/fonts/JetBrainsMono-ExtraBold.woff2') format('woff2');
+}
+
+:root {
+    --color-primary: #99ccff;
+    --color-secondary: #ff9999;
+    --color-background: #141010;
+    --color-background-header: #0c0808;
+    --color-background-cell: #1C1D21;
+}
+
+body {
+    background-color: var(--color-background);
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+
+#MainHeader {
+    direction: ltr;
+    overflow: hidden;
+    background-color: var(--color-background-header);
+    color: white;
+    position: sticky;
+    display: flex;
+    justify-content: flex-start;
+    font-family: JetBrainsMono-Bold, monospace;
+    font-size: 20px;
+    padding: 10px 1.5em 10px 1.5em;
+}
+
+#MainLogo{
+    -webkit-mask-image: var(--color-background-cell);
+}
+
+.HeaderItem {
+    margin: 0 .125em;
+    text-align: center;
+    align-items: center;
+    gap: 8px;
+    display: flex;
+}
+
+#HeaderLeft {
+    direction: ltr;
+    position: sticky;
+    display: flex;
+    margin-right: auto;
+}
+
+#HeaderRight {
+    position: sticky;
+    gap: 8px;
+    display: flex;
+}
+
+#Main{
+    flex: 1;
+}
+
+#MainBody{
+    padding: 1em;
+}
+
+#MainBody2{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+#MainBody3{
+    grid-template-columns: minmax(10em,44vw) minmax(36em,3fr);
+    display: grid;
+    flex: 1 1;
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: 0;
+    gap: 2rem;
+}
+
+#Footer{
+    border-top: .5px solid var(--color-primary);
+    margin: 10px 1.5em 10px 1.5em;
+    padding: 10px 0 10px 0;
+    justify-content: center;
+}
+
+.FooterItem {
+    margin: .5em 0;
+    
+    font-family: JetBrainsMono-Bold, monospace;
+    color: white;
+    text-align: center;
+}
+
+#MainBodyTitle{
+    font-family: JetBrainsMono-Bold, monospace;
+    color: var(--color-primary);
+}
+
+#MainBodyText{
+    font-family: JetBrainsMono-Regular, monospace;
+    color: white;
+}
+
+#RightBody{
+    margin-top: .5em;
+    display: grid;
+    
+    font-family: JetBrainsMono-Bold, monospace;
+    color: white;
+    text-align: right;
+    line-height: 50%;
+}
+
+#GamesHeader{
+    font-family: JetBrainsMono-Bold, monospace;
+    color: var(--color-primary);
+    text-align: right;
+}
+
+#CellBody{
+    grid-template-columns: minmax(12em,1fr) minmax(12em,1fr) minmax(12em,1fr);
+    display: grid;
+    margin: .75em 0;
+    flex: 1 1;
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: 0;
+    gap: 2rem;
+
+    line-height: normal;
+}
+
+.Cell {
+    position: relative;
+    padding: 40px 25px;
+    background-color: var(--color-background-cell);
+    clip-path: polygon(0 0,
+    calc(100% - 40px) 0,100% 40px,
+    100% calc(100% - 40px),
+    calc(100% - 40px) 100%,
+    40px 100%,
+    0 calc(100% - 40px)
+    );
+}
+
+.Cell:before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: var(--color-primary);
+    clip-path: polygon(
+            0 0,
+            calc(100% - 40px) 0,100% 40px,
+            100% calc(100% - 40px),
+            calc(100% - 40px) 100%,
+            40px 100%,0 calc(100% - 40px),
+            0 0,
+            1.5px 1.5px,
+            1.5px calc(100% - 40px - .62px),
+            calc(40px + .62px) calc(100% - 1.5px),
+            calc(100% - 40px - .62px) calc(100% - 1.5px),
+            calc(100% - 1.5px) calc(100% - 40px - .62px),
+            calc(100% - 1.5px) calc(40px + .62px),
+            calc(100% - 40px - .62px) 1.5px,
+            1.5px 1.5px
+    );
+}
+
+.Cell_A{
+    margin-top: 1em;
+    margin-bottom: 5em;
+}
+
+.Cell_B{
+    margin-top: 4em;
+    margin-bottom: 2em;
+}
+
+.Cell_C{
+    margin-bottom: 6em;
+}
+
+.CellSlideShow{
+    align-content: flex-start;
+    display: flex;
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.CellTitle{
+    margin-top: .5em;
+    margin-bottom: 1em;
+    
+    font-family: JetBrainsMono-Bold, monospace;
+    color: var(--color-primary);
+    text-align: left;
+}
+
+.CellBody{
+    margin-bottom: 1em;
+    font-family: JetBrainsMono-Regular, monospace;
+    color: white;
+    text-align: left;
+}
+
+.CellSkillsBody{
+    direction: ltr;
+    position: sticky;
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5em;
+}
+
+.CellSkill{
+    padding: .125em .5em .125em .5em;
+    margin: 0 0;
+    background-color: var(--color-primary);
+    font-family: JetBrainsMono-Bold, monospace;
+    color: var(--color-background-cell);
+    clip-path: polygon(
+            0 0,
+            100% 0,
+            100% calc(100% - 6px),
+            calc(100% - 6px) 100%,
+            0 100%);
+}
+
+.CellSkillBold{
+    background-color: var(--color-secondary);
+}
