@@ -57,7 +57,7 @@
                             <div id="CellBody">
                                 <div class="Cell Cell_A">
                                     <div class="CellSlideShow">
-                                        <img alt="Test Image" src="images/test.svg" width="500" style="color:transparent; min-width: 240px; max-width: 500px">
+                                        <img alt="Test Image" src="images/SleighersPromo.webp" width="500" style="color:transparent; min-width: 240px; max-width: 500px">
                                     </div>
                                     <h2 class="CellTitle">
                                         Sleighers
@@ -84,10 +84,10 @@
                                 </div>
                                 <div class="Cell Cell_B">
                                     <div class="CellSlideShow">
-                                        <img alt="Test Image" src="images/test.svg" width="500" style="color:transparent; min-width: 240px; max-width: 500px">
+                                        <img alt="Test Image" src="images/CurrentPromo.webp" width="500" style="color:transparent; min-width: 240px; max-width: 500px">
                                     </div>
                                     <h2 class="CellTitle">
-                                    Current Crisis
+                                        Current Crisis
                                     </h2>
                                     <div class="CellBody">
                                          A <span style="color: var(--color-primary);">power grid </span> construction and management simulator game, sponsored by Sandia National Laboratories. <br><br> Players manage a power line system, with an overall goal of mitigating or outright preventing power line failures during natural disasters.
@@ -106,7 +106,24 @@
                                 </div>
                                 <div class="Cell Cell_C">
                                     <div class="CellSlideShow">
-                                        <img alt="Test Image" src="images/test.svg" width="500" style="color:transparent; min-width: 240px; max-width: 500px">
+                                        <img alt="Test Image" src="images/TetraPromo.webp" width="500" style="color:transparent; min-width: 240px; max-width: 500px">
+                                    </div>
+                                    <h2 class="CellTitle">
+                                        Tetra City
+                                    </h2>
+                                    <div class="CellBody">
+                                        A <span style="color: var(--color-primary);">city builder puzzle game</span> whose gameplay is similar to Tetris. <br><br> Player must stack buildings in patterns to earn coins, which are used to purchase more buildings, rinse and repeat, with an overall goal of surviving as long as possible.
+                                    </div>
+                                    <div class="CellSkillsBody">
+                                        <h4 class="CellSkill">
+                                            GDScript
+                                        </h4>
+                                        <h4 class="CellSkill">
+                                            Godot
+                                        </h4>
+                                        <h4 class="CellSkill">
+                                            GitHub
+                                        </h4>
                                     </div>
                                 </div>
                             </div>
