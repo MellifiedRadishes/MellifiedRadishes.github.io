@@ -22,6 +22,8 @@
     --color-background: #141010;
     --color-background-header: #0c0808;
     --color-background-cell: #1C1D21;
+    --color-background-cell-button-primary: #333D49;
+    --color-background-cell-button-secondary: #543535;
 }
 
 body {
@@ -170,10 +172,12 @@ body {
     background-color: var(--color-primary);
     clip-path: polygon(
             0 0,
-            calc(100% - 40px) 0,100% 40px,
+            calc(100% - 40px) 0,
+            100% 40px,
             100% calc(100% - 40px),
             calc(100% - 40px) 100%,
-            40px 100%,0 calc(100% - 40px),
+            40px 100%,
+            0 calc(100% - 40px),
             0 0,
             1.5px 1.5px,
             1.5px calc(100% - 40px - .62px),
@@ -254,16 +258,22 @@ body {
 
 .PageCellTop{
     position: relative;
-    padding: 40px 25px;
+    padding: 20px 25px;
     background-color: var(--color-background-cell);
     clip-path: polygon(0 0,
-    calc(100% - 40px) 0,100% 40px,
-    100% calc(100% - 40px),
-    calc(100% - 40px) 100%,
-    40px 100%,
-    0 calc(100% - 40px)
+    calc(100% - 20px) 0,
+    100% 20px,
+    100% calc(100% - 20px),
+    calc(100% - 20px) 100%,
+    20px 100%,
+    0 calc(100% - 20px)
     );
-    margin: 2em 20% 0 20%
+    margin: 2em 20% 0 20%;
+    
+    display: grid;
+    text-align: center;
+    justify-items: center;
+    gap: .25em;
 }
 
 .PageCellTop:before {
@@ -273,18 +283,20 @@ body {
     background-color: var(--color-primary);
     clip-path: polygon(
             0 0,
-            calc(100% - 40px) 0,100% 40px,
-            100% calc(100% - 40px),
-            calc(100% - 40px) 100%,
-            40px 100%,0 calc(100% - 40px),
+            calc(100% - 20px) 0,
+            100% 20px,
+            100% calc(100% - 20px),
+            calc(100% - 20px) 100%,
+            20px 100%,
+            0 calc(100% - 20px),
             0 0,
             1.5px 1.5px,
-            1.5px calc(100% - 40px - .62px),
-            calc(40px + .62px) calc(100% - 1.5px),
-            calc(100% - 40px - .62px) calc(100% - 1.5px),
-            calc(100% - 1.5px) calc(100% - 40px - .62px),
-            calc(100% - 1.5px) calc(40px + .62px),
-            calc(100% - 40px - .62px) 1.5px,
+            1.5px calc(100% - 20px - 0.62px),
+            calc(20px + 0.62px) calc(100% - 1.5px),
+            calc(100% - 20px - 0.62px) calc(100% - 1.5px),
+            calc(100% - 1.5px) calc(100% - 20px - 0.62px),
+            calc(100% - 1.5px) calc(20px + 0.62px),
+            calc(100% - 20px - 0.62px) 1.5px,
             1.5px 1.5px
     );
 }
@@ -327,8 +339,45 @@ body {
 }
 
 .PageCellHeader{
-    font-family: JetBrainsMono-Bold, monospace;
-    font-size: 48px;
+    font-family: JetBrainsMono-ExtraBold, monospace;
+    font-size: 54px;
     color: var(--color-primary);
     text-align: center;
+    flex-basis: 100%;
+}
+
+#PlayButton{
+    background: var(--color-background-cell-button-primary);
+    width:50px;
+    height:50px;
+    transition: all .2s ease-in-out;
+    
+    border:2px solid var(--color-primary);
+    border-radius: 50px;
+
+    align-content: center;
+}
+
+#PlayButton:hover {
+    transform: scale(1.1);
+    background: var(--color-background-cell-button-secondary);
+    border:2px solid var(--color-secondary);
+    
+    -webkit-transition: border, background 200ms linear;
+    -ms-transition: border, background 200ms linear;
+    transition: border, background 200ms linear;
+}
+
+#PlayButton:hover #PlayButtonLogo{
+    display: none;
+}
+
+#PlayButton:hover #PlayButtonLogo2{
+    display: inline;
+    visibility: visible;
+}
+
+#PlayButtonLogo2{
+    display: none;
+    visibility: hidden;
 }
