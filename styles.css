@@ -113,6 +113,7 @@ body {
 #MainBodyTitle{
     font-family: JetBrainsMono-Bold, monospace;
     color: var(--color-primary);
+    line-height: 75%;
 }
 
 #MainBodyText{
@@ -249,4 +250,85 @@ body {
 
 .CellSkillBold{
     background-color: var(--color-secondary);
+}
+
+.PageCellTop{
+    position: relative;
+    padding: 40px 25px;
+    background-color: var(--color-background-cell);
+    clip-path: polygon(0 0,
+    calc(100% - 40px) 0,100% 40px,
+    100% calc(100% - 40px),
+    calc(100% - 40px) 100%,
+    40px 100%,
+    0 calc(100% - 40px)
+    );
+    margin: 2em 20% 0 20%
+}
+
+.PageCellTop:before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: var(--color-primary);
+    clip-path: polygon(
+            0 0,
+            calc(100% - 40px) 0,100% 40px,
+            100% calc(100% - 40px),
+            calc(100% - 40px) 100%,
+            40px 100%,0 calc(100% - 40px),
+            0 0,
+            1.5px 1.5px,
+            1.5px calc(100% - 40px - .62px),
+            calc(40px + .62px) calc(100% - 1.5px),
+            calc(100% - 40px - .62px) calc(100% - 1.5px),
+            calc(100% - 1.5px) calc(100% - 40px - .62px),
+            calc(100% - 1.5px) calc(40px + .62px),
+            calc(100% - 40px - .62px) 1.5px,
+            1.5px 1.5px
+    );
+}
+
+.PageCell{
+    position: relative;
+    padding: 40px 25px;
+    background-color: var(--color-background-cell);
+    clip-path: polygon(0 0,
+    calc(100% - 40px) 0,100% 40px,
+    100% calc(100% - 40px),
+    calc(100% - 40px) 100%,
+    40px 100%,
+    0 calc(100% - 40px)
+    );
+    margin: 1em 25% 0 25%
+}
+
+.PageCell:before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: var(--color-primary);
+    clip-path: polygon(
+            0 0,
+            calc(100% - 40px) 0,100% 40px,
+            100% calc(100% - 40px),
+            calc(100% - 40px) 100%,
+            40px 100%,0 calc(100% - 40px),
+            0 0,
+            1.5px 1.5px,
+            1.5px calc(100% - 40px - .62px),
+            calc(40px + .62px) calc(100% - 1.5px),
+            calc(100% - 40px - .62px) calc(100% - 1.5px),
+            calc(100% - 1.5px) calc(100% - 40px - .62px),
+            calc(100% - 1.5px) calc(40px + .62px),
+            calc(100% - 40px - .62px) 1.5px,
+            1.5px 1.5px
+    );
+}
+
+.PageCellHeader{
+    font-family: JetBrainsMono-Bold, monospace;
+    font-size: 48px;
+    color: var(--color-primary);
+    text-align: center;
 }

@@ -2,7 +2,7 @@
 
 <html lang="en">
     <head>
-        <title>Michael Alekseychyk / Home</title>
+        <title>Michael Alekseychyk - Home</title>
         <link rel="preload" href="fonts/JetBrainsMono-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous" data-next-fonts="size-adjust">
         <link rel="preload" href="fonts/JetBrainsMono-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous" data-next-fonts="size-adjust">
         <link rel="icon" href="images/logo2.svg" type="image/svg+xml">
@@ -23,7 +23,7 @@
             <div id="HeaderRight">
                 <a href="mailto:michaelalekseychyk@gmail.com">
                     <div class="HeaderItem">
-                        <img id="LinkedIn" alt="at" width="30" height="30" src="images/email.svg">
+                        <img id="Email" alt="at" width="30" height="30" src="images/email.svg">
                     </div>
                 </a>
                 <a href="https://www.linkedin.com/in/mykhaylo-alekseychyk">
@@ -38,8 +38,11 @@
                 <div id="MainBody2">
                     <div id="MainBody3">
                         <div>
-                            <h1 id="MainBodyTitle">
+                            <h2 id="MainBodyTitle">
                                 Hello!✌️
+                            </h2>
+                            <h1 id="MainBodyTitle">
+                                I'm Mykhaylo "Michael" Alekseychk
                             </h1>
                             <div id="MainBodyText">
                                 I'm a passionate <span style="color: var(--color-primary);"> video game programmer </span> who likes making and playing games...
@@ -56,12 +59,14 @@
                             </div>
                             <div id="CellBody">
                                 <div class="Cell Cell_A">
-                                    <div class="CellSlideShow">
-                                        <img alt="Test Image" src="images/SleighersPromo.webp" width="500" style="color:transparent; min-width: 240px; max-width: 500px">
-                                    </div>
-                                    <h2 class="CellTitle">
-                                        Sleighers
-                                    </h2>
+                                    <a href="sleighers.html" style="text-decoration:none">
+                                        <div class="CellSlideShow">
+                                            <img alt="Test Image" src="images/SleighersPromo.webp" width="500" style="color:transparent; min-width: 120px; max-width: 500px">
+                                        </div>
+                                        <h2 class="CellTitle">
+                                            Sleighers
+                                        </h2>
+                                    </a>
                                     <div class="CellBody">
                                          A festive/anthro-themed <span style="color: var(--color-primary);"> networked multiplayer </span> first-person shooter.
                                          <br><br>
@@ -84,7 +89,7 @@
                                 </div>
                                 <div class="Cell Cell_B">
                                     <div class="CellSlideShow">
-                                        <img alt="Test Image" src="images/CurrentPromo.webp" width="500" style="color:transparent; min-width: 240px; max-width: 500px">
+                                        <img alt="Test Image" src="images/CurrentPromo.webp" width="500" style="color:transparent; min-width: 120px; max-width: 500px">
                                     </div>
                                     <h2 class="CellTitle">
                                         Current Crisis
@@ -106,7 +111,7 @@
                                 </div>
                                 <div class="Cell Cell_C">
                                     <div class="CellSlideShow">
-                                        <img alt="Test Image" src="images/TetraPromo.webp" width="500" style="color:transparent; min-width: 240px; max-width: 500px">
+                                        <img alt="Test Image" src="images/TetraPromo.webp" width="500" style="color:transparent; min-width: 120px; max-width: 500px">
                                     </div>
                                     <h2 class="CellTitle">
                                         Tetra City
