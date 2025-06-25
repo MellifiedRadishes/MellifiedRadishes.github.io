@@ -59,7 +59,7 @@
                             </div>
                             <div id="CellBody">
                                 <div class="Cell Cell_A">
-                                    <a href="sleighers.html" style="text-decoration:none">
+                                    <a href="/sleighers" style="text-decoration:none">
                                         <div class="CellSlideShow">
                                             <img alt="Test Image" src="images/SleighersPromo.webp" width="500" style="color:transparent; min-width: 120px; max-width: 500px">
                                         </div>
