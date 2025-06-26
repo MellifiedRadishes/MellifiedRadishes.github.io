@@ -17,7 +17,7 @@
                     </div>
                 </a>
                 <h3 class="HeaderItem">
-                      <span style="color: var(--color-primary); letter-spacing:-4px">::</span><span style="color: var(--color-primary);">HOME</span><span style="letter-spacing:-4px">::</span>WELCOME
+                    <span style="color: var(--color-primary); letter-spacing:-4px; margin: 0 -4px 0 -4px;">::</span><span style="color: var(--color-primary); margin: 0 -4px 0 0;">HOME</span><span style="letter-spacing:-4px; margin: 0 -4px 0 -4px;">::</span><span style="margin: 0 -4px 0 0;">WELCOME</span>
                 </h3>
             </div>
             <div id="HeaderRight">
@@ -88,7 +88,7 @@
                                     </div>
                                 </div>
                                 <div class="Cell Cell_B">
-                                    <a href="/current" style="text-decoration:none">
+                                    <a href="/currentcrisis" style="text-decoration:none">
                                         <div class="CellSlideShow">
                                             <img alt="Test Image" src="images/CurrentPromo.webp" width="500" style="color:transparent; min-width: 120px; max-width: 500px">
                                         </div>
@@ -112,7 +112,7 @@
                                     </div>
                                 </div>
                                 <div class="Cell Cell_C">
-                                    <a href="/tetra" style="text-decoration:none">
+                                    <a href="/tetracity" style="text-decoration:none">
                                         <div class="CellSlideShow">
                                             <img alt="Test Image" src="images/TetraPromo.webp" width="500" style="color:transparent; min-width: 120px; max-width: 500px">
                                         </div>
