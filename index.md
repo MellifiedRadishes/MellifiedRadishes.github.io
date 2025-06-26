@@ -17,7 +17,7 @@
                     </div>
                 </a>
                 <h3 class="HeaderItem">
-                    <span style="color: var(--color-primary); letter-spacing:-4px; margin: 0 -4px 0 -4px;">::</span><span style="color: var(--color-primary); margin: 0 -4px 0 0;">HOME</span><span style="letter-spacing:-4px; margin: 0 -4px 0 -4px;">::</span><span style="margin: 0 -4px 0 0;">WELCOME</span>
+                    <span style="letter-spacing:-4px; margin: 0 -4px 0 -4px;">::</span><span style="margin: 0 -4px 0 0;">WELCOME</span>
                 </h3>
             </div>
             <div id="HeaderRight">
