@@ -71,6 +71,8 @@
                                          A festive/anthro-themed <span style="color: var(--color-primary);"> networked multiplayer </span> first-person shooter.
                                          <br><br>
                                          Players battle each-other and land grab for their opposing teams, all while avoiding periodic weather events.
+                                         <br><br>
+                                         (Come see Sleighers at DreamHack Atlanta 2025!)
                                     </div>
                                     <div class="CellSkillsBody">
                                         <h4 class="CellSkill">
