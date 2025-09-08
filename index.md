@@ -72,7 +72,9 @@
                                          <br><br>
                                          Players battle each-other and land grab for their opposing teams, all while avoiding periodic weather events.
                                          <br><br>
-                                         (Come see Sleighers at DreamHack Atlanta 2025!)
+                                         <a href="https://dreamhack.com/atlanta/indies/barnstormer-studios/" style="color:var(--color-primary)">
+                                            Come see Sleighers at DreamHack Atlanta 2025!
+                                         </a>
                                     </div>
                                     <div class="CellSkillsBody">
                                         <h4 class="CellSkill">
