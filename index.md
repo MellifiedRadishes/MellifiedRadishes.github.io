@@ -72,7 +72,7 @@
                                          <br><br>
                                          Players battle each-other and land grab for their opposing teams, all while avoiding periodic weather events.
                                          <br><br>
-                                         As seen at DreamHack Atlanta 2025 and Wreckcon 2026. Come see Sleighers at FWA 2026!
+                                         As seen at DreamHack Atlanta 2025 and WreckCon 2026. Come see Sleighers at FWA 2026!
                                     </div>
                                     <div class="CellSkillsBody">
                                         <h4 class="CellSkill">
