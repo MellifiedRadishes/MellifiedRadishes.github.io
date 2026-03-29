@@ -268,7 +268,7 @@ body {
     20px 100%,
     0 calc(100% - 20px)
     );
-    margin: 2em 20% 0 20%;
+    margin: 2em 15% 0 15%;
     
     display: grid;
     text-align: center;
@@ -301,6 +301,31 @@ body {
     );
 }
 
+.PageCellTopContent{
+    font-family: JetBrainsMono-ExtraBold, monospace;
+    color: var(--color-primary);
+    font-size: 24px;
+    text-align: center;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    gap: .5em;
+    margin: 0 3em;
+}
+
+.PageCellTopContentColumn {
+    font-family: JetBrainsMono-ExtraBold, monospace;
+    color: var(--color-primary);
+    font-size: 16px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    align-items: center;
+}
+
 .PageCell{
     position: relative;
     padding: 60px 60px;
@@ -312,7 +337,7 @@ body {
     40px 100%,
     0 calc(100% - 40px)
     );
-    margin: 1em 25% 0 25%;
+    margin: 1em 20% 0 20%;
     
     font-family: JetBrainsMono-Regular, monospace;
     color: white;
@@ -349,6 +374,7 @@ body {
     color: var(--color-primary);
     text-align: center;
     flex-basis: 100%;
+    display: flex;
 }
 
 .PageCellImage{
@@ -397,6 +423,42 @@ body {
 }
 
 #PlayButtonLogo2{
+    display: none;
+    visibility: hidden;
+}
+
+#SpotifyPlayButton{
+    background: var(--color-background-cell-button-primary);
+    width:50px;
+    height:50px;
+    transition: all .2s ease-in-out;
+
+    border:2px solid var(--color-primary);
+    border-radius: 50px;
+
+    align-content: center;
+}
+
+#SpotifyPlayButton:hover {
+    transform: scale(1.1);
+    background: var(--color-background-cell-button-secondary);
+    border:2px solid var(--color-secondary);
+
+    -webkit-transition: border, background 200ms linear;
+    -ms-transition: border, background 200ms linear;
+    transition: border, background 200ms linear;
+}
+
+#SpotifyPlayButton:hover #SpotifyLogo{
+    display: none;
+}
+
+#SpotifyPlayButton:hover #SpotifyLogo2{
+    display: inline;
+    visibility: visible;
+}
+
+#SpotifyLogo2{
     display: none;
     visibility: hidden;
 }
