@@ -16,6 +16,12 @@
     src: url('/fonts/JetBrainsMono-ExtraBold.woff2') format('woff2');
 }
 
+@font-face {
+    font-family: 'Mohave-Bold';
+    font-style:normal;
+    src: url('/fonts/Mohave-Bold.woff2') format('woff2');
+}
+
 :root {
     --color-primary: #99ccff;
     --color-secondary: #ff9999;
@@ -376,6 +382,38 @@ body {
     text-align: center;
     flex-basis: 100%;
     display: flex;
+}
+
+.PageCellHeaderCurrentCrisis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-2vw);
+}
+
+.PageCellTopContentCurrentCrisis{
+    font-family: JetBrainsMono-ExtraBold, monospace;
+    color: var(--color-primary);
+    font-size: 24px;
+    text-align: center;
+
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    margin: 0 1em;
+}
+
+.PageCellTopContentColumnCurrentCrisis {
+    font-family: Mohave-Bold, monospace;
+    color: var(--color-primary);
+    font-size: clamp(2rem, 2vw, 16px);
+    width: clamp(10px, 8.5vw, 175px);
+
+    display: flex;
+    flex-direction: column;
+    line-height: 0;
+    gap: 0.0em;
+    align-items: flex-start;
 }
 
 .PageCellImage{
