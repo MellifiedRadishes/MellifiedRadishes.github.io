@@ -23,6 +23,7 @@
 }
 
 :root {
+    --color-white: #ffffff;
     --color-primary: #99ccff;
     --color-secondary: #ff9999;
     --color-background: #141010;
@@ -30,6 +31,9 @@
     --color-background-cell: #1C1D21;
     --color-background-cell-button-primary: #333D49;
     --color-background-cell-button-secondary: #543535;
+    --color-spotify-green: #1ED760;
+    --color-background-cell-spotify-primary: #33493b;
+    --color-background-cell-spotify-secondary: #333333;
 }
 
 body {
@@ -384,6 +388,19 @@ body {
     display: flex;
 }
 
+.PageCellTopContentColumnSleighers {
+    font-family: JetBrainsMono-ExtraBold, monospace;
+    color: var(--color-primary);
+    font-size: clamp(10px, 2vw, 16px);
+    width: clamp(10px, 8.5vw, 175px);
+
+    display: flex;
+    flex-direction: column;
+    gap: .75em;
+    margin: 3em 0 0 0;
+    align-items: center;
+}
+
 .PageCellHeaderCurrentCrisis{
     display: flex;
     justify-content: center;
@@ -467,7 +484,7 @@ body {
 }
 
 #SpotifyPlayButton{
-    background: var(--color-background-cell-button-primary);
+    background: var(--color-background-cell-spotify-primary);
     
     width: 100%;
     height: 100%;
@@ -477,7 +494,7 @@ body {
     max-height: 50px;
     transition: all .2s ease-in-out;
 
-    border:2px solid var(--color-primary);
+    border:2px solid var(--color-spotify-green);
     border-radius: 50px;
 
     align-content: center;
@@ -485,8 +502,8 @@ body {
 
 #SpotifyPlayButton:hover {
     transform: scale(1.1);
-    background: var(--color-background-cell-button-secondary);
-    border:2px solid var(--color-secondary);
+    background: var(--color-background-cell-spotify-secondary);
+    border:2px solid var(--color-white);
 
     -webkit-transition: border, background 200ms linear;
     -ms-transition: border, background 200ms linear;
