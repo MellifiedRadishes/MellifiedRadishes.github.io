@@ -404,14 +404,11 @@ body {
 
 .PageCellTopContentColumnCurrentCrisis {
     font-family: Mohave-Bold, monospace;
-    font-size: clamp(2rem, 2vw, 16px);
+    font-size: clamp(2.2rem, 2vw, 16px);
     width: clamp(10px, 8.5vw, 175px);
 
     display: flex;
     flex-direction: column;
-    line-height: 0;
-    gap: 0.0em;
-    align-items: flex-start;
 }
 
 .PageCellTopContentColumnCurrentCrisis h1 {
