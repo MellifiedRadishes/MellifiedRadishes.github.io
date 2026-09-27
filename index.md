@@ -1,5 +1,3 @@
-
-
 <html lang="en">
     <head>
         <title>Michael Alekseychyk - Home</title>
@@ -134,6 +132,36 @@
                                         </h4>
                                         <h4 class="CellSkill">
                                             Godot
+                                        </h4>
+                                        <h4 class="CellSkill">
+                                            GitHub
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="CellBody">
+                                <div class="Cell Cell_A" style="visibility: hidden;">
+                                </div>
+                                <div class="Cell Cell_B" style="visibility: hidden;">
+                                </div>
+                                <div class="Cell Cell_C">
+                                    <a href="/speeddemons" style="text-decoration:none">
+                                        <div class="CellSlideShow">
+                                            <img alt="Test Image" src="images/SpeedDemons.webp" width="500" style="color:transparent; min-width: 120px; max-width: 500px">
+                                        </div>
+                                        <h2 class="CellTitle">
+                                            Speed Demons
+                                        </h2>
+                                    </a>
+                                    <div class="CellBody">
+                                        A cryptid themed <span style="color: var(--color-primary);">multiplayer go-karting racing game</span> in the vain of Mario Kart or <span style="font-family: JetBrainsMono-Italic, monospace;">Sonic Racing: CrossWorlds</span>. <br><br> Players race against other players and AI racers in a spooky themed track with cryptids with their own special abilities.
+                                    </div>
+                                    <div class="CellSkillsBody">
+                                        <h4 class="CellSkill">
+                                            C#
+                                        </h4>
+                                        <h4 class="CellSkill">
+                                            Unity
                                         </h4>
                                         <h4 class="CellSkill">
                                             GitHub
