@@ -72,7 +72,7 @@
                                          <br><br>
                                          Players battle each-other and land grab for their opposing teams, all while avoiding periodic weather events.
                                          <br><br>
-                                         As seen at DreamHack Atlanta 2025, WreckCon 2026, FWA 2026, and SFGE 2026!.
+                                         As seen at DreamHack Atlanta 2025, WreckCon 2026, FWA 2026, and SFGE 2026!
                                     </div>
                                     <div class="CellSkillsBody">
                                         <h4 class="CellSkill">
@@ -148,7 +148,7 @@
                 This website was made with care by a human!
             </h5>
             <h5 class="FooterItem">
-                ©2025 Michael Alekseychyk
+                ©2025-2026 Michael Alekseychyk
             </h5>
         </footer>
     </body>
