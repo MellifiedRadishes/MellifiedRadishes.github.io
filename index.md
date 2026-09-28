@@ -70,6 +70,8 @@
                                          <br><br>
                                          Players battle each-other and land grab for their opposing teams, all while avoiding periodic weather events.
                                          <br><br>
+                                         Come see us at <a href="https://www.ggdevexpo.org/">GGX 2026</a>!
+                                         <br><br>
                                          As seen at DreamHack Atlanta 2025, WreckCon 2026, FWA 2026, and SFGE 2026!
                                     </div>
                                     <div class="CellSkillsBody">

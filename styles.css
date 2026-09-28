@@ -36,6 +36,22 @@
     --color-background-cell-spotify-secondary: #333333;
 }
 
+a:link {
+    color: var(--color-primary);
+}
+
+a:visited {
+    color: var(--color-primary);
+}
+
+a:hover {
+    color: var(--color-white);
+}
+
+a:active {
+    color: var(--color-primary);
+}
+
 body {
     background-color: var(--color-background);
     display: flex;
@@ -495,6 +511,7 @@ body {
     opacity: 0;
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
+
 #ComingSoonLabel:hover{
     opacity: 1;
 }
