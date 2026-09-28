@@ -120,6 +120,7 @@ body {
     flex-shrink: 1;
     flex-basis: 0;
     gap: 2rem;
+    font-size: clamp(0.7rem, .8vw, 1.25rem);
 }
 
 #Footer{
@@ -182,6 +183,8 @@ body {
     40px 100%,
     0 calc(100% - 40px)
     );
+    
+    font-size: clamp(0.7rem, .75vw, 1.25rem);
 }
 
 .Cell:before {
