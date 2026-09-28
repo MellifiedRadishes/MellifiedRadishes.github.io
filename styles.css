@@ -100,7 +100,6 @@ body {
 #MainBody3{
     grid-template-columns: minmax(10em,44vw) minmax(36em,3fr);
     display: grid;
-    flex: 1 1;
     flex-grow: 2;
     flex-shrink: 1;
     flex-basis: 0;
@@ -111,7 +110,6 @@ body {
     border-top: .5px solid var(--color-primary);
     margin: 10px 1.5em 10px 1.5em;
     padding: 10px 0 10px 0;
-    justify-content: center;
 }
 
 .FooterItem {
@@ -153,12 +151,7 @@ body {
     grid-template-columns: minmax(12em,1fr) minmax(12em,1fr) minmax(12em,1fr);
     display: grid;
     margin: .75em 0;
-    flex: 1 1;
-    flex-grow: 2;
-    flex-shrink: 1;
-    flex-basis: 0;
     gap: 2rem;
-
     line-height: normal;
 }
 
@@ -384,7 +377,6 @@ body {
     font-size: 54px;
     color: var(--color-primary);
     text-align: center;
-    flex-basis: 100%;
     display: flex;
 }
 

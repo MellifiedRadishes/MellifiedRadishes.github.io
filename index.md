@@ -154,7 +154,7 @@
                                         </h2>
                                     </a>
                                     <div class="CellBody">
-                                        A cryptid themed <span style="color: var(--color-primary);">multiplayer go-karting racing game</span> in the vain of Mario Kart or <span style="font-family: JetBrainsMono-Italic, monospace;">Sonic Racing: CrossWorlds</span>. <br><br> Players race against other players and AI racers in a spooky themed track with cryptids with their own special abilities.
+                                        A cryptid themed <span style="color: var(--color-primary);">multiplayer go-karting racing game</span> in the vain of the Mario Kart games or <span style="font-family: JetBrainsMono-Italic, monospace;">Sonic Racing: CrossWorlds</span>. <br><br> Players race against other players and AI racers in a spooky themed track with cryptids with their own special abilities.
                                     </div>
                                     <div class="CellSkillsBody">
                                         <h4 class="CellSkill">
