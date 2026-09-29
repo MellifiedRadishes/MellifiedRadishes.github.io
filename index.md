@@ -19,6 +19,11 @@
                 </h3>
             </div>
             <div id="HeaderRight">
+                <a href="https://github.com/MellifiedRadishes">
+                    <div class="HeaderItem">
+                        <img id="GitHub" alt="at" width="30" height="30" src="images/github.svg">
+                    </div>
+                </a>
                 <a href="mailto:michaelalekseychyk@gmail.com">
                     <div class="HeaderItem">
                         <img id="Email" alt="at" width="30" height="30" src="images/email.svg">
