@@ -172,6 +172,14 @@ body {
     line-height: normal;
 }
 
+#CellBodySubsequent{
+    grid-template-columns: minmax(12em,1fr) minmax(12em,1fr) minmax(12em,1fr);
+    display: grid;
+    margin: -4vw 0;
+    gap: 2rem;
+    line-height: normal;
+}
+
 .Cell {
     position: relative;
     padding: 40px 25px;
