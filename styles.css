@@ -154,14 +154,14 @@ body {
     
     font-family: JetBrainsMono-Bold, monospace;
     color: white;
-    text-align: right;
+    text-align: center;
     line-height: 50%;
 }
 
 #GamesHeader{
     font-family: JetBrainsMono-Bold, monospace;
     color: var(--color-primary);
-    text-align: right;
+    text-align: center;
 }
 
 #CellBody{
