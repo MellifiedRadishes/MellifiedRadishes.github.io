@@ -94,7 +94,7 @@
                                         </h4>
                                     </div>
                                 </div>
-                                <div class="Cell Cell_B">
+                                <div class="Cell Cell_B" style="margin-bottom: 7.2em">
                                     <a href="/currentcrisis" style="text-decoration:none">
                                         <div class="CellSlideShow">
                                             <img alt="Test Image" src="images/CurrentPromo.webp" width="500" style="color:transparent; min-width: 120px; max-width: 500px">
@@ -121,7 +121,7 @@
                                         </h4>
                                     </div>
                                 </div>
-                                <div class="Cell Cell_C">
+                                <div class="Cell Cell_C" style="margin-bottom: 14.5em">
                                     <a href="/tetracity" style="text-decoration:none">
                                         <div class="CellSlideShow">
                                             <img alt="Test Image" src="images/TetraPromo.webp" width="500" style="color:transparent; min-width: 120px; max-width: 500px">
@@ -151,7 +151,7 @@
                                 </div>
                                 <div class="Cell Cell_B" style="visibility: hidden;">
                                 </div>
-                                <div class="Cell Cell_C">
+                                <div class="Cell Cell_C" style="margin-top: -8.2em">
                                     <a href="/speeddemons" style="text-decoration:none">
                                         <div class="CellSlideShow">
                                             <img alt="Test Image" src="images/SpeedDemons.webp" width="500" style="color:transparent; min-width: 120px; max-width: 500px">
