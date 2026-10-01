@@ -45,7 +45,7 @@
                                 Hello!✌️
                             </h2>
                             <h1 id="MainBodyTitle">
-                                I'm Mykhaylo "Michael" Alekseychk
+                                I'm Mykhaylo "Michael" Alekseychyk
                             </h1>
                             <div id="MainBodyText">
                                 I'm a passionate <span style="color: var(--color-primary);"> video game programmer </span> who likes making and playing games...
