@@ -94,7 +94,7 @@
                                         </h4>
                                     </div>
                                 </div>
-                                <div class="Cell Cell_B" style="margin-bottom: 7.2em">
+                                <div class="Cell Cell_B" style="margin-bottom: 9.1em">
                                     <a href="/currentcrisis" style="text-decoration:none">
                                         <div class="CellSlideShow">
                                             <img alt="Test Image" src="images/CurrentPromo.webp" width="500" style="color:transparent; min-width: 120px; max-width: 500px">
@@ -115,9 +115,6 @@
                                         </h4>
                                         <h4 class="CellSkill">
                                             GitHub
-                                        </h4>
-                                       <h4 class="CellSkill CellSkillBold">
-                                            I Work Here!
                                         </h4>
                                     </div>
                                 </div>
