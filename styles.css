@@ -181,15 +181,17 @@ body {
 }
 
 .Cell {
+    --cell-size-corners: clamp(20px, 2vw, 40px);
+    
     position: relative;
-    padding: 40px 25px;
+    padding: var(--cell-size-corners) clamp(12px, 2.5vw, 25px);
     background-color: var(--color-background-cell);
     clip-path: polygon(0 0,
-    calc(100% - 40px) 0,100% 40px,
-    100% calc(100% - 40px),
-    calc(100% - 40px) 100%,
-    40px 100%,
-    0 calc(100% - 40px)
+    calc(100% - var(--cell-size-corners)) 0,100% var(--cell-size-corners),
+    100% calc(100% - var(--cell-size-corners)),
+    calc(100% - var(--cell-size-corners)) 100%,
+    var(--cell-size-corners) 100%,
+    0 calc(100% - var(--cell-size-corners))
     );
     
     font-size: clamp(0.7rem, .75vw, 1.25rem);
@@ -202,20 +204,20 @@ body {
     background-color: var(--color-primary);
     clip-path: polygon(
             0 0,
-            calc(100% - 40px) 0,
-            100% 40px,
-            100% calc(100% - 40px),
-            calc(100% - 40px) 100%,
-            40px 100%,
-            0 calc(100% - 40px),
+            calc(100% - var(--cell-size-corners)) 0,
+            100% var(--cell-size-corners),
+            100% calc(100% - var(--cell-size-corners)),
+            calc(100% - var(--cell-size-corners)) 100%,
+            var(--cell-size-corners) 100%,
+            0 calc(100% - var(--cell-size-corners)),
             0 0,
             1.5px 1.5px,
-            1.5px calc(100% - 40px - .62px),
-            calc(40px + .62px) calc(100% - 1.5px),
-            calc(100% - 40px - .62px) calc(100% - 1.5px),
-            calc(100% - 1.5px) calc(100% - 40px - .62px),
-            calc(100% - 1.5px) calc(40px + .62px),
-            calc(100% - 40px - .62px) 1.5px,
+            1.5px calc(100% - var(--cell-size-corners) - .62px),
+            calc(var(--cell-size-corners) + .62px) calc(100% - 1.5px),
+            calc(100% - var(--cell-size-corners) - .62px) calc(100% - 1.5px),
+            calc(100% - 1.5px) calc(100% - var(--cell-size-corners) - .62px),
+            calc(100% - 1.5px) calc(var(--cell-size-corners) + .62px),
+            calc(100% - var(--cell-size-corners) - .62px) 1.5px,
             1.5px 1.5px
     );
 }
